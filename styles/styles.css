@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+
+  font-family: "Open Sans", sans-serif;
+}
+/* Banner Styles */
+.banner {
+  margin: 0;
+  height: 850px;
+
+  display: flex;
+
+  background: url(../images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-title {
+  margin-top: 200px;
+  margin-left: 850px;
+  width: 525px;
+  height: 250px;
+  color: #151414;
+
+  font-weight: 700;
+  font-size: 65px;
+  width: 500px;
+  margin-bottom: 24px;
+  text-align: right;
+}
+.banner-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 870px;
+  width: 475px;
+
+  margin-bottom: 32px;
+  text-align: right;
+}
+.btn-primary {
+  width: 150px;
+  height: 50px;
+  margin-left: 1200px;
+  margin-right: 300px;
+
+  background: #fd6e0a;
+  border: 0;
+  font-weight: 600;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+/* Person Section Styles */
+.person-profile {
+  margin-top: 150px;
+  display: flex;
+  margin-left: 300px;
+}
+.person-profile-title {
+  margin-left: 80px;
+  margin-top: 255px;
+  font-weight: 700;
+  font-size: 40px;
+  width: 260px;
+  color: #151414;
+  margin-bottom: 25px;
+}
+.person-profile-subtitle {
+  margin-left: 80px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.person-profile-description {
+  margin-left: 40px;
+  list-style: none;
+}
+.person-plan {
+  margin-top: 100px;
+  text-align: center;
+}
+.person-plans-container {
+  display: flex;
+  margin-left: 200px;
+  gap: 220px;
+}
+
+.person-plans-item {
+  margin-top: 30px;
+}
+.person-plans-item-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* Quote Styles */
+.quote {
+  margin-top: 200px;
+  margin-bottom: 20px;
+  margin-left: 400px;
+  height: 300px;
+  background: url(../images/gradient2.png), url(../images/watch.png);
+
+  background-repeat: no-repeat;
+}
+
+.quote-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  height: 50px;
+  padding: 40px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.quote-button {
+  margin-top: 20px;
+  color: red;
+  border: 0;
+  margin-left: 40px;
+  width: 160px;
+  height: 64px;
+}
+/* Footer Styles */
+footer {
+  background-color: black;
+  margin-top: 150px;
+
+  display: flex;
+  gap: 150px;
+}
+.contact-info {
+  margin-left: 150px;
+  width: 50%;
+
+  margin-top: 200px;
+}
+.contact-heading {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+}
+.contact-description {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #f8f8f8;
+}
+.icons {
+  margin-left: 5px;
+}
+.subscribe {
+  font-weight: 600;
+  font-size: 25px;
+  color: #f8f8f8;
+  margin-top: 200px;
+}
+.subscribe input[type="submit"] {
+  margin-top: 20px;
+  color: red;
+
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.subscribe input[type="email"] {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  width: 100%;
+  color: white;
+}
